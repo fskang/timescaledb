@@ -6,6 +6,8 @@
 bool		guc_disable_optimizations = false;
 bool		guc_optimize_non_hypertables = false;
 bool		guc_restoring = false;
+bool		guc_originating_node = false;
+bool		guc_ignore_ddl = false;
 
 
 void
